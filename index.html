@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>A Truth You Deserve</title>
+<title>Para sa binigyan ng QR</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Allura&family=DM+Sans:wght@400;500;600&display=swap" rel="stylesheet">
@@ -345,7 +345,7 @@ body::after{content:"";position:fixed;inset:0;pointer-events:none;opacity:.035;b
 
 <main class="app">
 <section id="screen-1" class="screen active">
-  <div class="eyebrow">A little message</div>
+  <div class="eyebrow">Mensahe mula sa gumagawa ng washing machine</div>
   <div class="script">A Truth You Deserve</div>
   <div class="subtitle">When feelings are meant to unfold</div>
   <button class="primary" id="startButton" type="button">Start <span></span></button>
@@ -658,7 +658,7 @@ body::after{content:"";position:fixed;inset:0;pointer-events:none;opacity:.035;b
     tile.classList.remove("target");
     tile.classList.add("hit");
     setLightDisabled(true);
-    $("gameMessage").textContent=game.round<game.total?"Nice. Faster now... ✦":"You caught every single one. 🤍";
+    $("gameMessage").textContent=game.round<game.total?"wow Ngaleng":"IDOL KUMBAGA";
     $("gameMessage").className="game-message success";
     updateGameHud();
     if(game.round>=game.total){
